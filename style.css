@@ -1,0 +1,102 @@
+body{
+	background: #950808;
+}
+/*div contain all of the content*/
+.all{
+	margin: auto;
+	width: 350px;
+
+	margin-top: 150px;
+	border-radius: 20px;
+	background: white;
+}
+/*content the name of task*/
+.head{
+	text-align: center;
+	background: #32050d;
+    height: 35px;
+    color: white;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+    line-height: 35px;
+}
+.content{
+	margin:15px;
+
+}
+
+.button{
+	display: flex;
+	justify-content: space-between;
+}
+/*button 1*/
+#btn{
+	 
+	padding: 13px;
+	width:180px;
+	font-size: 20px;
+	background:#950808;
+	color: white;
+	border:none; 
+	margin-left: 70px;
+	outline: none;
+	border: none;
+}
+
+
+/* much was the bill*/
+#bill{
+	width: 210px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-top-color: #c0b7b7;
+    border-left-color: #c0b7b7;
+    border-bottom-color: #eee;
+    border-right-color: #eee;
+	outline: none;
+	
+}	
+/* how was the service is*/
+#service{
+	margin: 10px;
+	width: 300px;
+	padding: 17px;
+	background:#c0b7b742;
+	outline: none;
+
+}
+/* amount of people who sharing the bill*/
+#people{
+	width: 220px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-top-color: #c0b7b7;
+    border-left-color: #c0b7b7;
+    border-bottom-color: #eee;
+    border-right-color: #eee;
+	outline: none;
+	
+}
+/* the name of result*/
+.tipamount{
+	text-align: center;
+	font-size:  20px;
+	font-weight: bold;
+}
+/*place that result put */
+#out{
+	background:#fafafa00; 
+	font-size: 25px;
+}
+.last-word{
+	margin-left: 130px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#sup{
+font-size: 20px;
+}
+#out-sup{
+padding-left: 30px;
+
+}

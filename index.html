@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tip Calculator</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		  <div class="all">
+		  	 <!--header-->
+			  <header class="head" >TIP CALCULATOR</header>
+			  <!--first question -->
+		     <div class="content">
+		        How much was your bill?
+		       <br>
+		        <label>$</label>
+		        <input id="bill"type="text" name="" placeholder="how much mony" onkeypress="isInputNumber(event)">
+			   <br>
+			   <!--second question-->
+		        How was your service?
+		       <br>
+		        <select id="service">
+		        	<option  value=".05">5%-Bad</option>
+		        	<option  value=".1">10%-Bad</option>
+		        	<option  value=".15">15%-Ok</option>
+		        	<option  value=".2">20%-Good</option>
+		        	<option  value=".3">30%-Excellent</option>
+		        </select>
+			 <br>
+			 <!--third question-->
+		        How many people are sharing the bill?
+		       
+            <br>
+		        <input id="people" type="text" name="" placeholder="number of people" onkeypress="isInputNumber(event)">
+		          <label>people</label>
+				  <br>
+				  <!--button-->
+                   <div class="button">
+		          <button id="btn">CALCULATE</button>
+		          
+		       </div>
+				  <br>
+				  <!--result-->
+				  <div class="tipamount">TIP AMOUNT</div>
+				  <div id="out-sup">
+				  <sup id="sup">$</sup><output id="out" type="number" name="" ></output>
+				</div>
+				  <div class="last-word">each</div>
+				
+		  </div >
+
+		</div>
+	    
+	   	<script src="script.js"></script>
+	</body>
+</html> 
